@@ -6,6 +6,8 @@
 
 describe( "<module>", ( ) => {
 
+	let bridgeURL = `file://${ path.resolve( __dirname, "bridge.html" ) }`;
+
 } );
 
 //: @end-bridge
