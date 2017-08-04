@@ -12,7 +12,7 @@ describe( "<module>", ( ) => {
 
 //: @end-bridge
 
-describe( `"<test>"`, ( ) => {
+describe( "`<test>`", ( ) => {
 	it( "<message>", ( ) => {
 
 		let result = browser.url( bridgeURL ).execute(
